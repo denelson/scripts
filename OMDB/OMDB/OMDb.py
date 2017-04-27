@@ -10,6 +10,7 @@ def getMovieDetailsByTitle(title):
     
     if (response.ok):
         
+        print "fetching data from omdbapi.com"
         jData = json.loads(response.content)
         #print jData +'\n'
         
